@@ -1,0 +1,111 @@
+body {
+	margin:0;
+}
+
+.navbar {
+text-decoration: none;
+color: black;
+}
+
+.navbar:hover {
+	background-color: #ff99cc;
+    color: red;
+}
+	
+.navItem:hover {
+	background-color: #ff99cc;
+    color: red;
+}
+	
+#container {
+	padding: 13px 15px;
+	border: 1px solid grey;
+	font-family:arial;
+	display: flex;
+	justify-content: space-between;
+}
+		
+.navItem {
+	display: inline;
+}
+
+.navItemText {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   font-size: 14px;
+}
+		
+.inline {
+	display: inline;
+}
+	
+.searchbtn {
+	background-color: white;
+	border: 2px solid #33cc33;
+	color: #33cc33;
+	padding:6px 10px 6px 10px;
+	border-radius:3px;
+	margin-left:4px;
+}
+
+.searchbtn:hover {
+	color: white;
+	cursor:pointer;
+	background-color: green;
+}
+
+.inputSearchbtn {
+    float: right;
+}
+	
+.disabled {
+	color:gray;
+}
+		
+.navbar {
+	font-size: 20px;
+}
+						
+.dropdown {
+	position: relative;
+}
+		
+#dropdownContent {
+	position: absolute;
+	width: 170px;
+	top: 20px;
+	left: 13px;
+	border: 2px solid gray;
+	border-radius:5px;
+	background-color: white;
+	display: none;
+}
+
+.dropdown:hover #dropdownContent {
+    display: block;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+	
+
+
+.dropdownItem {
+	border-bottom: 1px solid grey;
+}
+
+.dropdownItem a:hover {
+	color: white;
+	background-color: blue;
+}
+
+.input {
+	padding-left:8px;
+    height: 27px;
+    width: 200px;
+}
+				
